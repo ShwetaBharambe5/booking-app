@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking App</title>
+
+</head>
+
+<body>
+
+<section class="container">
+  <form id="my-form" action="#" method="get">
+
+      <header>Booking Appointment</header>
+
+      <div class="input-box">
+          <label for="username">Username</label><br>
+          <input type="text" name="username" id="username" class="username-box"><br>
+      </div>
+
+      <div class="input-box">
+          <label for="phNumber">Phone Number:</label><br>
+          <input type="tel" id="phNumber" placeholder="+91" maxlength="13"><br>
+      </div>
+
+      <div class="input-box">
+          <label for="email">Email</label><br>
+          <input type="email" name="email" id="email">
+      </div>
+
+      <button type="submit">Submit</button>
+
+  </form>
+</section>
+<div class="container-sm new-container" id="user-box">
+  <h4><u>Registered User's:</u></h4>
+  <ul class="user-list-group" id="users">
+
+
+  </ul>
+</div>
+
+
+<script src="bookingApp.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.0/axios.min.js"></script>
+
+
+</body>
+
+</html>
